@@ -1,0 +1,85 @@
+.calculator {
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+h1 {
+    font-family: Helvetica;
+    font-weight: bolder;
+    color: #293845;
+    font-size: 32px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+p {
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #293845;
+}
+  
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+  
+label {
+    margin-top: 30px;
+    padding-right: 52%;
+    color: #293845;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+  
+input {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: 2px solid #b0aafcc7;
+    border-radius: 5px;
+    width: 84%;
+    margin-left: 6%;
+}
+  
+button {
+    width: 165px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #6558F5;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #6558F5;
+    font-weight: 500;
+    margin-left: 35px;
+    margin-top: 20px;
+    transition: .5s;
+}
+  
+button:hover {
+    background-color: #6558F5;
+    color: #fff;
+}
+  
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+  
+.result label {
+    padding-right: 70%;
+    margin-bottom: 10px;
+}
+  
+.result span {
+    font-weight: bold;
+} 
